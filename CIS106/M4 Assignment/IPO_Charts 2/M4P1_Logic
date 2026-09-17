@@ -1,4 +1,5 @@
 # Program to calculate weighted exam scores
+
 # Input section
 exam1 = float(input("Enter the first exam score: "))
 exam2 = float(input("Enter the second exam score: "))
