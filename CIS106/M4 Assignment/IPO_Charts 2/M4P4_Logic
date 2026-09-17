@@ -1,4 +1,5 @@
 # Program to calculate calories burned from walking steps
+
 # Input section
 first_name = input("Enter your first name: ")
 steps = float(input("Enter the number of steps walked in a day: "))
