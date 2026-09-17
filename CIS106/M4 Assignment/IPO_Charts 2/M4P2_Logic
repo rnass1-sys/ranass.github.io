@@ -1,4 +1,5 @@
 # Program to compute stock investment value change
+
 # Input section
 purchase_price = float(input("Enter the purchase price per share: "))
 current_price = float(input("Enter the current stock price: "))
