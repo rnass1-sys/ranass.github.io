@@ -1,1 +1,11 @@
+# Program to compute stock investment value change
+# Input section
+purchase_price = float(input("Enter the purchase price per share: "))
+current_price = float(input("Enter the current stock price: "))
+quantity = float(input("Enter the quantity of stock: "))
 
+# Processing section
+value_change = (current_price - purchase_price) * quantity
+
+# Output section
+print(f"\nStock Value Change: ${value_change:.2f}")
