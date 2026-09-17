@@ -1,4 +1,5 @@
 # Program to calculate meal tips at 15%, 18%, and 20%
+
 # Input section
 meal_total = float(input("Enter the total for a meal: "))
 
