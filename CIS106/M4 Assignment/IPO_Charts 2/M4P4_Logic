@@ -1,1 +1,11 @@
+# Program to calculate calories burned from walking steps
+# Input section
+first_name = input("Enter your first name: ")
+steps = float(input("Enter the number of steps walked in a day: "))
 
+# Processing section
+calories_burned = steps * 0.25
+
+# Output section
+print(f"\nFirst Name: {first_name}")
+print(f"Calories Burned: {calories_burned:.2f}")
