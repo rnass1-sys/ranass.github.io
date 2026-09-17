@@ -1,1 +1,28 @@
+# Program to calculate meal tips at 15%, 18%, and 20%
+# Input section
+meal_total = float(input("Enter the total for a meal: "))
+
+# Processing section
+# (Calculations are performed inline during the output phase to maintain formatting)
+tip15 = meal_total * 0.15
+total15 = meal_total + tip15
+
+tip18 = meal_total * 0.18
+total18 = meal_total + tip18
+
+tip20 = meal_total * 0.20
+total20 = meal_total + tip20
+
+# Output section
+print(f"\nTotal: {meal_total:.2f}")
+print(f"Tip: {tip15:.2f}")
+print(f"Total with Tip {total15:.2f}")
+print()
+print(f"Total: {meal_total:.2f}")
+print(f"Tip: {tip18:.2f}")
+print(f"Total with Tip {total18:.2f}")
+print()
+print(f"Total: {meal_total:.2f}")
+print(f"Tip: {tip20:.2f}")
+print(f"Total with Tip {total20:.2f}")
 
