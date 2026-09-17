@@ -1,1 +1,11 @@
+# Program to calculate a business break-even point
+# Input section
+fixed_costs = float(input("Enter fixed costs: "))
+price_per_unit = float(input("Enter price per unit: "))
+cost_per_unit = float(input("Enter cost per unit: "))
 
+# Processing section
+break_even_point = fixed_costs / (price_per_unit - cost_per_unit)
+
+# Output section
+print(f"\nBreak-Even Point: {break_even_point:.2f} units")
