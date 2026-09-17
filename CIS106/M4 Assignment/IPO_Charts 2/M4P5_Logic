@@ -1,4 +1,5 @@
 # Program to calculate a business break-even point
+
 # Input section
 fixed_costs = float(input("Enter fixed costs: "))
 price_per_unit = float(input("Enter price per unit: "))
