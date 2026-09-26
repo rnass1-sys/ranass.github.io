@@ -1,1 +1,19 @@
+INPUT:
+    - appliance_name (str): Label/Name of the appliance.
+    - appliance_cost (float): Standard baseline cost of the appliance.
 
+PROCESSING:
+    1. Read appliance_name and appliance_cost from user.
+    2. IF appliance_cost > 1000.00 THEN
+           warranty_rate = 0.10
+       ELSE
+           warranty_rate = 0.05
+       ENDIF
+    3. Compute warranty_cost = appliance_cost * warranty_rate
+    4. Compute total_cost = appliance_cost + warranty_cost
+
+OUTPUT:
+    - appliance_name (str)
+    - appliance_cost (float)
+    - warranty_cost (float)
+    - total_cost (float)
