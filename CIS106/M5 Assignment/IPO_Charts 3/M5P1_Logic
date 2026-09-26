@@ -1,1 +1,20 @@
+INPUT:
+    - quantity (int): Number of items entered by the user.
 
+PROCESSING:
+    1. Read quantity from user.
+    2. IF quantity >= 1000 THEN
+           unit_price = 3.00
+       ELSE
+           unit_price = 5.00
+       ENDIF
+    3. Compute extended_price = quantity * unit_price
+    4. Compute tax = extended_price * 0.07
+    5. Compute total = extended_price + tax
+
+OUTPUT:
+    - quantity (int)
+    - unit_price (float)
+    - extended_price (float)
+    - tax (float)
+    - total (float)
