@@ -1,1 +1,16 @@
+INPUT:
+    - num_books (int): Total number of books to order.
+    - cost_per_book (float): Price for an individual book.
 
+PROCESSING:
+    1. Read num_books and cost_per_book from user.
+    2. Compute order_total = num_books * cost_per_book
+    3. IF order_total > 50.00 THEN
+           shipping_charge = 0.00
+       ELSE
+           shipping_charge = 25.00
+       ENDIF
+
+OUTPUT:
+    - order_total (float)
+    - shipping_charge (float)
