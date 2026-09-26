@@ -1,1 +1,24 @@
+INPUT:
+    - last_name (str): Last name of the taxpayer.
+    - num_dependents (int): Total number of claimable dependents.
+    - gross_income (float): Annual gross incoming salary.
 
+PROCESSING:
+    1. Read last_name, num_dependents, and gross_income from user.
+    2. Compute adjusted_gross_income = gross_income - (num_dependents * 12000)
+    3. IF adjusted_gross_income > 50000.00 THEN
+           tax_rate = 0.20
+       ELSE
+           tax_rate = 0.10
+       ENDIF
+    4. Compute initial income_tax = adjusted_gross_income * tax_rate
+    5. IF income_tax < 0 THEN
+           income_tax = 100.00
+       ENDIF
+
+OUTPUT:
+    - last_name (str)
+    - gross_income (float)
+    - num_dependents (int)
+    - adjusted_gross_income (float)
+    - income_tax (float)
