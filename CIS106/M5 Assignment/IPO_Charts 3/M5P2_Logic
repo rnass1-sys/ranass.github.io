@@ -1,1 +1,18 @@
+INPUT:
+    - item (str): Label of the item ("A" or any other value).
+    - quantity (int): Quantity of the item to purchase.
 
+PROCESSING:
+    1. Read item and quantity from user.
+    2. Convert item to uppercase and remove leading/trailing spaces.
+    3. IF item == "A" THEN
+           unit_price = 10.00
+       ELSE
+           unit_price = 20.00
+       ENDIF
+    4. Compute extended_price = quantity * unit_price
+
+OUTPUT:
+    - item (str)
+    - unit_price (float)
+    - extended_price (float)
