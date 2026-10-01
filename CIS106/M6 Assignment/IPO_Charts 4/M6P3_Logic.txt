@@ -1,1 +1,17 @@
+INPUT:
+  - principal (float)
+  - years (int)
 
+PROCESSING:
+  - Get principal CD balance and maturity timeline from user.
+  - Determine compound interest structure using relational logic arrays:
+      - principal > $100,000 AND 5 years               -> rate = 6%
+      - principal between $50k-$100k AND 10 years     -> rate = 5%
+      - principal between $50k-$100k AND 5 years      -> rate = 4%
+      - Unmatched fallback criteria                   -> rate = 2%
+  - Calculate first year interest = principal * rate
+
+OUTPUT:
+  - principal (float)           [Decimals aligned]
+  - interest_rate (float)       [Decimals aligned]
+  - first_year_interest (float) [Decimals aligned]
