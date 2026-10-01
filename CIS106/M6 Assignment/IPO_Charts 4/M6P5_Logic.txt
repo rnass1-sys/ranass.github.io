@@ -1,1 +1,16 @@
+INPUT:
+  - last_name (str)
+  - salary (float)
+  - job_level (int)
 
+PROCESSING:
+  - Get employee last name, base salary, and job rank level.
+  - Match performance job level tiers against rate matrix maps:
+      - level >= 10 -> bonus rate = 25%
+      - level 5-9   -> bonus rate = 20%
+      - All others  -> bonus rate = 10%
+  - Calculate bonus amount = salary * bonus rate
+
+OUTPUT:
+  - last_name (str)
+  - bonus_amount (float) [Decimals aligned]
