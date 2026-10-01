@@ -1,1 +1,17 @@
+INPUT:
+  - part_number (str)
+  - quantity (int)
 
+PROCESSING:
+  - Get part number and quantity from user.
+  - Match part against cost configuration using string comparison logic:
+      - "10" or "55" -> cost = $1.00
+      - "99"         -> cost = $2.00
+      - "80" or "70" -> cost = $3.00
+      - All others   -> cost = $5.00
+  - Calculate total cost = quantity * unit cost
+
+OUTPUT:
+  - part_number (str)
+  - unit_cost (float)   [Decimals aligned]
+  - total_cost (float)  [Decimals aligned]
