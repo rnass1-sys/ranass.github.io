@@ -1,1 +1,16 @@
+INPUT:
+  - tickets (int)
 
+PROCESSING:
+  - Get number of tickets from user.
+  - Establish volume threshold evaluation checks:
+      - tickets >= 25       -> price = $50
+      - tickets 10 to 24    -> price = $60
+      - tickets 5 to 9      -> price = $70
+      - tickets less than 5 -> price = $75
+  - Calculate total cost = tickets * price per ticket
+
+OUTPUT:
+  - tickets (int)
+  - price_per_ticket (float) [Decimals aligned]
+  - total_cost (float)       [Decimals aligned]
