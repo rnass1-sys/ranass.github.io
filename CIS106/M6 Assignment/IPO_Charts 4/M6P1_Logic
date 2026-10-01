@@ -1,1 +1,17 @@
+INPUT:
+  - quantity (int)
 
+PROCESSING:
+  - Get widget quantity from user.
+  - Evaluate pricing tiers with conditional logic (if/elif/else):
+      - If quantity > 10000 -> price = $10
+      - If 5000 to 10000   -> price = $20
+      - If below 5000      -> price = $30
+  - Calculate extended price = quantity * price
+  - Calculate sales tax = extended price * 0.07
+  - Calculate total = extended price + tax
+
+OUTPUT:
+  - extended_price (float) [Decimals aligned]
+  - tax_amount (float)     [Decimals aligned]
+  - total_cost (float)     [Decimals aligned]
