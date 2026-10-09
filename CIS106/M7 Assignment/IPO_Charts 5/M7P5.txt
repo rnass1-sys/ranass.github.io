@@ -1,1 +1,22 @@
+INPUT:
+  - run_program (str)
+  - quantity (int)
+  - price (float)
 
+PROCESSING:
+  - Prepare running baseline summary index evaluating total global systemic reductions.
+  - Fetch gate statement run validation strings prior to executing iterative logic block.
+  - Prompt operator for product units and matching face value evaluation properties.
+  - Calculate structural scale baseline: extended price = volume quantity * baseline cost.
+  - Match item pricing configurations against tiered discount boundary checks:
+      - extended > 10000.00 -> reduction rate = 25%
+      - All others          -> reduction rate = 10%
+  - Evaluate output variables: discount = extended * rate, total = extended - discount.
+  - Compound transactional reduction savings index metrics up into global ledger track.
+  - Ask entry operator loop termination state decisions via lower exit point fields.
+
+OUTPUT:
+  - extended_price (float) [Decimals aligned]
+  - discount_amount (float) [Decimals aligned]
+  - order_total (float) [Decimals aligned]
+  - total_discounts_sum (float) [Post-loop aggregated global discount balance value]
