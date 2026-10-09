@@ -1,1 +1,23 @@
+INPUT:
+  - run_program (str)
+  - last_name (str)
+  - hours (float)
+  - rate (float)
 
+PROCESSING:
+  - Define macro tracking storage items for total payroll bank sum and staffing numbers.
+  - Prompt validation checker gatekeeper statement directly before loop statement structure.
+  - Process inside cycle bounds for identity details, duration factor, and scale units.
+  - Validate duration parameters to trigger conditional calculation overrides:
+      - hours > 40 -> gross = (40 * rate) + ((hours - 40) * rate * 1.5)
+      - All others -> gross = hours * rate
+  - Accumulate transaction records values to systemic summary reporting registers.
+  - Refresh cycle variable validation control token check via lower footer input fields.
+  - Compute post-loop dataset indicators: average compensation pay = total sum / size.
+
+OUTPUT:
+  - last_name (str)
+  - gross_pay (float) [Decimals aligned]
+  - total_gross_pay (float) [Post-loop balance registry summary metrics]
+  - employee_count (int) [Post-loop processing volume counter records]
+  - average_pay (float) [Calculated tracking results presentation]
