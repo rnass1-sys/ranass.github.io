@@ -1,1 +1,14 @@
+INPUT:
+  - start (int)
+  - stop (int)
+  - increment (int)
 
+PROCESSING:
+  - Capture control boundary variables (start, stop, step) via console.
+  - Initialize the running step tracking index value to match start boundary.
+  - Execute while execution boundary evaluates current target index <= stop ceiling.
+  - Print tracked execution iteration counter directly onto display terminal.
+  - Accelerate tracking state index ahead using step value size.
+
+OUTPUT:
+  - current (int) [Generated increment values sequence]
