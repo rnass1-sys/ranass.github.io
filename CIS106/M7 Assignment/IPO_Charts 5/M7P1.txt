@@ -1,1 +1,11 @@
+INPUT:
+  - None
 
+PROCESSING:
+  - Initialize calculation starting value count variable at 1.
+  - Implement while logic condition loop verifying track limit <= 25.
+  - Print the verified odd number loop value to console windows.
+  - Step counter target forward by increment factor value of 2.
+
+OUTPUT:
+  - number (int) [Odd sequence list values from 1 to 25]
