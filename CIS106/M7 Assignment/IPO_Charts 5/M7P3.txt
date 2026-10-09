@@ -1,1 +1,19 @@
+INPUT:
+  - run_program (str)
+  - last_name (str)
+  - score1 (float)
+  - score2 (float)
 
+PROCESSING:
+  - Set summary collection accumulator count variable tracking students at 0.
+  - Probe target terminal command gateway for initial loop validation answer text.
+  - Manage iterative logic sequence checking if choice text matches validation 'yes'.
+  - Query operator inside block scope for string surname and score float values.
+  - Calculate grade average evaluation profile = (score1 + score2) / 2.
+  - Advance cumulative student transaction baseline counter track index by 1.
+  - Capture repeat conditional intent text at block tail bounds before recycling.
+
+OUTPUT:
+  - last_name (str)
+  - average (float) [Decimals aligned]
+  - student_count (int) [Post-loop execution absolute summary total]
