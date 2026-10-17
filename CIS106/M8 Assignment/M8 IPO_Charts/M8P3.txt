@@ -1,0 +1,17 @@
+INPUT:
+  - Sequential read lines from text file:
+    - last_name (string)
+    - salary (float)
+
+PROCESSING:
+  1. Open the file and parse text line groups sequentially.
+  2. Determine bonus bracket criteria via conditional logic:
+     - If salary >= 100,000.00 -> rate = 20% (0.20)
+     - If salary >= 50,000.00  -> rate = 15% (0.15)
+     - All other cases         -> rate = 10% (0.10)
+  3. Compute bonus product: bonus = salary * rate.
+  4. Accumulate running bonus total into total_bonuses_paid.
+
+OUTPUT:
+  - Detail line for each employee showing Last Name, Salary, and Bonus.
+  - Overall aggregate sum of all employee bonuses paid.

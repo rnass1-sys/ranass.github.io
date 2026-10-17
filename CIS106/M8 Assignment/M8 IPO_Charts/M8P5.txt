@@ -1,0 +1,17 @@
+INPUT:
+  - Sequential read lines from text file:
+    - last_name (string)
+    - district_code (string: 'I' or 'O')
+    - credits (int)
+
+PROCESSING:
+  1. Read structural blocks of 3 lines from data file.
+  2. Evaluate tuition cost tier using string match flags:
+     - If district_code is 'I' -> cost_per_credit = 250.00
+     - If district_code is 'O' -> cost_per_credit = 500.00
+  3. Compute semester balance: tuition_owed = credits * cost_per_credit.
+  4. Accumulate overall school metrics (total_tuition and student_count).
+
+OUTPUT:
+  - Clean layout reporting Student Last Name, Credits, and Tuition Owed.
+  - Aggregate total sum of tuition collected and final count of students.

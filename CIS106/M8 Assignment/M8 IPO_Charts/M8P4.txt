@@ -1,0 +1,16 @@
+INPUT:
+  - Sequential read lines from text file:
+    - item (string)
+    - quantity (int)
+    - price (float)
+
+PROCESSING:
+  1. Step through the file record blocks line-by-line.
+  2. Compute line execution pricing: extended_price = quantity * price.
+  3. Accumulate line cost into total_extended_price.
+  4. Count the loop transaction cycle into order_count.
+  5. Post-loop, compute mean value: average_order = total_extended_price / order_count.
+
+OUTPUT:
+  - Columnar report mapping Item, Qty, Price, and Extended Price.
+  - Final metrics: Sum of all prices, total orders count, and average order price.

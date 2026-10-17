@@ -1,0 +1,15 @@
+INPUT:
+  - principal (float): User-entered starting money amount.
+  - rate (float): User-entered interest rate decimal.
+
+PROCESSING:
+  1. Prompt user for starting principal and interest rate.
+  2. Run a loop for exactly 5 years.
+  3. Inside loop, calculate interest: interest = principal * rate.
+  4. Calculate ending balance: ending_balance = principal + interest.
+  5. Accumulate interest into total_interest.
+  6. Update principal = ending_balance for the next loop run.
+
+OUTPUT:
+  - A formatted yearly breakdown table (Year, Beginning, Ending Balance).
+  - Total interest earned over the 5-year span.

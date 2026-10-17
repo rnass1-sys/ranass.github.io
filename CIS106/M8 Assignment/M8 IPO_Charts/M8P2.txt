@@ -1,0 +1,11 @@
+INPUT:
+  - None (Sequence bounds and start values are internal constants).
+
+PROCESSING:
+  1. Initialize seed variables 'a' = 1 and 'b' = 1.
+  2. Instantiate a 'for' loop to iterate exactly 20 times.
+  3. Print the current value of 'a'.
+  4. Progress the sequence using simultaneous assignment: a, b = b, a + b.
+
+OUTPUT:
+  - The first 20 natural order terms of the Fibonacci sequence.
