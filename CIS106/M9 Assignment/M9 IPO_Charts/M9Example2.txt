@@ -1,0 +1,16 @@
+INPUT
+- First Number
+- Second Number
+- Operation Code
+
+PROCESS
+- Perform addition, subtraction,
+  multiplication, or division
+- Check for division by zero
+
+OUTPUT
+- First Number
+- Second Number
+- Operation Code
+- Result
+- Error Message if dividing by zero

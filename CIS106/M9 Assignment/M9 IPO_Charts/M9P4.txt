@@ -1,0 +1,16 @@
+INPUT
+- Employee Last Name
+- Job Code
+- Hours Worked
+
+PROCESS
+- Determine pay rate from job code
+- Calculate regular pay
+- Calculate overtime pay for hours over 40
+- Calculate gross pay
+- Add gross pay to running total
+
+OUTPUT
+- Employee Last Name
+- Gross Pay
+- Total Gross Pay

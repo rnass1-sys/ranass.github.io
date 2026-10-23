@@ -1,0 +1,15 @@
+INPUT
+- Student Last Name
+- Credit Hours
+- District Code
+
+PROCESS
+- Determine tuition rate based on district code
+- Calculate tuition owed:
+  tuition = credit hours × rate
+- Add tuition to running total
+
+OUTPUT
+- Student Last Name
+- Tuition Owed
+- Total Tuition Owed

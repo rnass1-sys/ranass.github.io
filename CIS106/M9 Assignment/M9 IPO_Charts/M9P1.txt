@@ -1,0 +1,14 @@
+INPUT
+- Quantity
+- Unit Price
+
+PROCESS
+- Multiply quantity by unit price
+- If extended price is greater than $10,000, apply a 10% discount
+- Add extended price to running total
+
+OUTPUT
+- Quantity
+- Unit Price
+- Extended Price
+- Total Extended Price

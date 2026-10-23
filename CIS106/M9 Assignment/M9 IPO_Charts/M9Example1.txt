@@ -1,0 +1,13 @@
+INPUT
+- Reward Points
+- Redemption Code
+
+PROCESS
+- If code is C, multiply points by 2
+- If code is X, multiply points by 3
+- Otherwise multiply points by 1.5
+
+OUTPUT
+- Points
+- Redemption Code
+- Reward Points

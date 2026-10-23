@@ -1,0 +1,14 @@
+INPUT
+- Destination City
+- Miles Traveled
+- Gallons Used
+
+PROCESS
+- Calculate MPG using:
+  mpg = miles traveled / gallons used
+
+OUTPUT
+- Destination City
+- Miles Traveled
+- Miles Per Gallon
+- Number of Trips Entered

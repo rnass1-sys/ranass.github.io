@@ -1,0 +1,10 @@
+INPUT
+- String
+
+PROCESS
+- If string is lowercase, convert to uppercase
+- Otherwise convert to lowercase
+
+OUTPUT
+- Original String
+- Converted String

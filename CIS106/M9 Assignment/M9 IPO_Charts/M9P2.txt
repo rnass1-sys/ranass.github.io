@@ -1,0 +1,13 @@
+INPUT
+- Player Last Name
+- Hits
+- At Bats
+
+PROCESS
+- Calculate batting average using:
+  batting average = hits / at bats
+
+OUTPUT
+- Player Last Name
+- Batting Average
+- Number of Players Entered
