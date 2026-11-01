@@ -1,0 +1,39 @@
+# =====================================================================
+# IPO CHART: Problem 4 - Main Program Loop
+# =====================================================================
+# INPUT:
+#   - keep_going (String: "Yes" or "No")
+#   - last_name (String), miles (Float)
+#
+# PROCESSING:
+#   1. Initialize total_ticket_sales = 0.0
+#   2. While user enters "Yes":
+#       a. Prompt for last_name and miles from downtown Chicago.
+#       b. Call compute_train_ticket(miles).
+#       c. Accumulate: total_ticket_sales += ticket_price
+#       d. Display ticket price for current passenger.
+#       e. Prompt user to continue.
+#   3. Display final total accumulated ticket revenue.
+#
+# OUTPUT:
+#   - Individual ticket price ($)
+#   - Sum total price of all tickets sold ($)
+# =====================================================================
+
+# =====================================================================
+# IPO CHART: Problem 4 - compute_train_ticket(miles) Function
+# =====================================================================
+# INPUT:
+#   - miles (Float)
+#
+# PROCESSING:
+#   1. Evaluate miles range to determine price:
+#       - 30 or more -> $12
+#       - 20 to 29   -> $10
+#       - 10 to 19   -> $8
+#       - All others -> $5
+#   2. Return determined ticket price
+#
+# OUTPUT:
+#   - ticket_price (Float)
+# =====================================================================

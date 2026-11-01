@@ -1,0 +1,40 @@
+# =====================================================================
+# IPO CHART: Problem 1 - Main Program Loop
+# =====================================================================
+# INPUT:
+#   - keep_going (String: "Yes" or "No")
+#   - last_name (String)
+#   - month (String)
+#   - sales (Numeric)
+#
+# PROCESSING:
+#   1. Prompt user to start or skip the loop (Yes/No).
+#   2. While user enters "Yes":
+#       a. Prompt for last_name, month, and sales.
+#       b. Call compute_forecast(month, sales).
+#       c. Display returned forecast value.
+#       d. Prompt user to continue or exit loop.
+#
+# OUTPUT:
+#   - Next month's sales forecast value ($)
+# =====================================================================
+
+# =====================================================================
+# IPO CHART: Problem 1 - compute_forecast(month, sales) Function
+# =====================================================================
+# INPUT:
+#   - month (String)
+#   - sales (Float)
+#
+# PROCESSING:
+#   1. Check month name to find forecast percent:
+#       - Jan, Feb, Mar -> 0.10
+#       - Apr, May, Jun -> 0.15
+#       - Jul, Aug, Sep -> 0.20
+#       - Oct, Nov, Dec -> 0.25
+#   2. Compute: next_month_sales = sales * (1 + forecast_percent)
+#   3. Return next_month_sales
+#
+# OUTPUT:
+#   - next_month_sales (Float)
+# =====================================================================

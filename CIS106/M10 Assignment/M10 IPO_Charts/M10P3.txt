@@ -1,0 +1,45 @@
+# =====================================================================
+# IPO CHART: Problem 3 - Main Program Loop
+# =====================================================================
+# INPUT:
+#   - keep_going (String: "Yes" or "No")
+#   - make, model, ev_code (String)
+#   - msrp (Float)
+#
+# PROCESSING:
+#   1. Initialize total_msrp = 0.0, total_sales_price = 0.0
+#   2. While user enters "Yes":
+#       a. Prompt for make, model, ev_code, and msrp.
+#       b. Call compute_out_of_door_price(msrp, make, model, ev_code).
+#       c. Accumulate: total_msrp += msrp
+#       d. Accumulate: total_sales_price += final_price
+#       e. Display out-the-door final price.
+#       f. Prompt user to continue.
+#   3. Display total accumulated MSRPs and total Sales Prices.
+#
+# OUTPUT:
+#   - Out the door price for each vehicle ($)
+#   - Grand total sum of all MSRPs ($)
+#   - Grand total sum of all Sales Prices ($)
+# =====================================================================
+
+# =====================================================================
+# IPO CHART: Problem 3 - compute_out_of_door_price(...) Function
+# =====================================================================
+# INPUT:
+#   - msrp (Float), make (String), model (String), ev_code (String)
+#
+# PROCESSING:
+#   1. Match make/model or EV code to find discount tier:
+#       - Honda Accord -> 0.10
+#       - Toyota Rav4 -> 0.15
+#       - ev_code == "Y" -> 0.30
+#       - Default -> 0.05
+#   2. Compute: discount = msrp * discount_percent
+#   3. Compute: new_msrp = msrp - discount
+#   4. Compute: total_price = new_msrp * 1.07 (Sales Tax)
+#   5. Return total_price
+#
+# OUTPUT:
+#   - total_price (Float)
+# =====================================================================

@@ -1,0 +1,50 @@
+# =====================================================================
+# IPO CHART: Problem 2 - Main Program Loop
+# =====================================================================
+# INPUT:
+#   - keep_going (String: "Yes" or "No")
+#   - length, width, height (Float)
+#
+# PROCESSING:
+#   1. Prompt user to start loop.
+#   2. While user enters "Yes":
+#       a. Prompt for length, width, and height.
+#       b. Call compute_wall_sq_ft(length, width, height).
+#       c. Compute wall gallons = wall_sq_ft / 50.
+#       d. Call compute_ceiling_floor_area(length, width) [Bonus].
+#       e. Compute flat gallons = flat_area / 50.
+#       f. Display wall gallons and ceiling/floor gallons.
+#       g. Prompt user to continue.
+#
+# OUTPUT:
+#   - Gallons of paint needed for walls
+#   - Gallons of paint/varnish needed for ceiling/floor
+# =====================================================================
+
+# =====================================================================
+# IPO CHART: Problem 2 - compute_wall_sq_ft(length, width, height)
+# =====================================================================
+# INPUT:
+#   - length, width, height (Float)
+#
+# PROCESSING:
+#   1. Calculate area: (2 * length * height) + (2 * width * height)
+#   2. Return calculated wall square footage
+#
+# OUTPUT:
+#   - wall_square_footage (Float)
+# =====================================================================
+
+# =====================================================================
+# IPO CHART: Problem 2 - compute_ceiling_floor_area(length, width)
+# =====================================================================
+# INPUT:
+#   - length, width (Float)
+#
+# PROCESSING:
+#   1. Calculate area: length * width
+#   2. Return calculated ceiling or floor flat area
+#
+# OUTPUT:
+#   - area (Float)
+# =====================================================================

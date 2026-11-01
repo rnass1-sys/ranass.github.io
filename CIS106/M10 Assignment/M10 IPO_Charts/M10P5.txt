@@ -1,0 +1,43 @@
+# =====================================================================
+# IPO CHART: Problem 5 - Main Program Loop
+# =====================================================================
+# INPUT:
+#   - keep_going (String: "Yes" or "No")
+#   - county (String), market_val (Float)
+#
+# PROCESSING:
+#   1. Initialize total_market_value = 0.0, total_assessed_value = 0.0
+#   2. While user enters "Yes":
+#       a. Prompt for county name and market value of home.
+#       b. Call compute_assessed_value(county, market_val).
+#       c. Accumulate: total_market_value += market_val
+#       d. Accumulate: total_assessed_value += assessed_val
+#       e. Display assessed value for the home.
+#       f. Prompt user to continue.
+#   3. Display grand total of all market and assessed values.
+#
+# OUTPUT:
+#   - Home assessed value ($)
+#   - Sum total of all market values ($)
+#   - Sum total of all assessed values ($)
+# =====================================================================
+
+# =====================================================================
+# IPO CHART: Problem 5 - compute_assessed_value(county, market_value)
+# =====================================================================
+# INPUT:
+#   - county (String), market_value (Float)
+#
+# PROCESSING:
+#   1. Match county to get assessed value percent:
+#       - Cook    -> 0.90
+#       - DuPage  -> 0.80
+#       - McHenry -> 0.75
+#       - Kane    -> 0.60
+#       - Others  -> 0.70
+#   2. Compute: assessed_value = market_value * percent
+#   3. Return assessed_value
+#
+# OUTPUT:
+#   - assessed_value (Float)
+# =====================================================================
