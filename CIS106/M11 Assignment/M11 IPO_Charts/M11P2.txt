@@ -1,0 +1,14 @@
+INPUT
+- Student Last Name
+- Exam1
+- Exam2
+- Exam3
+
+PROCESS
+- Calculate Total Points = Exam1 + Exam2 + Exam3
+- Calculate Average = Total ÷ 3
+
+OUTPUT
+- Last Name
+- Total Points
+- Average Exam Score

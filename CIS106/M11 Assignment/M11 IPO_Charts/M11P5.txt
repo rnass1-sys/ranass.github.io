@@ -1,0 +1,12 @@
+INPUT
+- Quantity 
+- Unit Price
+
+PROCESS
+- Calculate Total = Quantity × Unit Price
+- Calculate Tax = Total × 0.07
+- Store Total and Tax as Global Variables
+
+OUTPUT
+- Total
+- Tax

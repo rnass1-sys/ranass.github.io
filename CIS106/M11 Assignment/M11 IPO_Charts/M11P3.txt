@@ -1,0 +1,13 @@
+INPUT
+- Salesperson Last Name
+- Sales Amount
+
+PROCESS
+- If Sales > $100,000, Commission = 10% of Sales
+- Otherwise Commission = 5% of Sales
+- Calculate Next Year's Target = Sales × 1.05
+
+OUTPUT
+- Salesperson Name
+- Commission
+- Next Year's Target

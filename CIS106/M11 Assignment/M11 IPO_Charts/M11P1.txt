@@ -1,0 +1,15 @@
+INPUT
+- Quantity 
+- Price 
+- Discount Rate
+
+PROCESS
+- Calculate Total = Quantity × Price
+- Calculate Discount Amount = Total × Discount Rate
+- Calculate Discounted Price = Total − Discount Amount
+
+OUTPUT
+- Quantity
+- Price
+- Discount Amount
+- Discounted Price

@@ -1,0 +1,15 @@
+INPUT
+- Bowler Last Name 
+- Game1 Score 
+- Game2 Score
+- Game3 Score
+- Handicap
+
+PROCESS
+- Calculate Average Score = (Game1 + Game2 + Game3) ÷ 3
+- Calculate Average with Handicap = Average Score + Handicap
+
+OUTPUT
+- Bowler Name
+- Average Score
+- Average Score with Handicap
