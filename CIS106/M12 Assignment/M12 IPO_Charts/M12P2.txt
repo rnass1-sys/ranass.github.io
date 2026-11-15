@@ -1,0 +1,16 @@
+INPUT:
+- Hardcoded array of 10 last names (last_names)
+- Hardcoded parallel array of 10 exam scores (exam_scores)
+
+PROCESSING:
+- Initialize last_names and exam_scores arrays with 10 corresponding elements
+- Call display_data(last_names, exam_scores):
+    - Loop through index i from 0 to length of array - 1
+    - Print last_names[i] and exam_scores[i]
+- Call display_reverse(last_names, exam_scores):
+    - Loop through index i from length of array - 1 down to 0
+    - Print last_names[i] and exam_scores[i]
+
+OUTPUT:
+- All 10 student last names paired with their exam scores in forward order
+- All 10 student last names paired with their exam scores in reverse order

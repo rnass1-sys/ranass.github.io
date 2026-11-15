@@ -1,0 +1,16 @@
+INPUT:
+- Text file ("scores.txt") containing last names and exam scores
+
+PROCESSING:
+- Open "scores.txt" and read each line into parallel arrays: last_names and exam_scores
+- Call display_data(last_names, exam_scores) to print all names and scores
+- Call find_high_low(last_names, exam_scores):
+    - Initialize high_var = 0, high_index = 0, low_var = 999, low_index = 0
+    - Loop through index i from 0 to length of exam_scores - 1:
+        - If exam_scores[i] > high_var, set high_var = exam_scores[i] and high_index = i
+        - If exam_scores[i] < low_var, set low_var = exam_scores[i] and low_index = i
+
+OUTPUT:
+- Complete list of student last names and exam scores
+- Last name and score of the student with the highest score
+- Last name and score of the student with the lowest score

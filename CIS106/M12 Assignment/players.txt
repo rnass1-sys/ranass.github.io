@@ -1,0 +1,10 @@
+Smith,0.325
+Jones,0.301
+Brown,0.286
+Davis,0.344
+Wilson,0.278
+Moore,0.311
+Taylor,0.295
+Clark,0.330
+Hall,0.289
+Young,0.305

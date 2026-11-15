@@ -1,0 +1,20 @@
+INPUT:
+- Text file ("players.txt") containing 10 player last names and batting averages
+- User input: search_name (player's last name to search, or "QUIT" to exit)
+
+PROCESSING:
+- Call load_file() to read "players.txt" into parallel arrays: player_names and batting_averages
+- Call display_players() to print all player names and batting averages
+- Loop while user input (search_name) is not "QUIT":
+    - Call search_player(search_name):
+        - Initialize found = False
+        - Loop through index i from 0 to length of player_names - 1:
+            - If player_names[i] (case-insensitive) equals search_name:
+                - Print player_names[i] and batting_averages[i]
+                - Set found = True and exit loop
+        - If found is still False, display "Name not found"
+
+OUTPUT:
+- Full list of 10 players and their batting averages
+- Prompt asking for a player's last name
+- Matched player's last name and batting average, OR "Name not found" message

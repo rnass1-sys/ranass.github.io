@@ -1,0 +1,15 @@
+INPUT:
+- Hardcoded array (list) of 10 last names (last_names)
+
+PROCESSING:
+- Initialize last_names array with 10 string elements
+- Call display_names(last_names):
+    - Loop through index i from 0 to length of array - 1
+    - Print last_names[i]
+- Call display_reverse(last_names):
+    - Loop through index i from length of array - 1 down to 0
+    - Print last_names[i]
+
+OUTPUT:
+- All 10 last names displayed in forward order
+- All 10 last names displayed in reverse order
