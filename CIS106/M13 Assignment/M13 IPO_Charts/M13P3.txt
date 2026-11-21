@@ -1,0 +1,12 @@
+INPUT:
+  - External text file ("batting_averages.txt") containing 10 player last names and batting averages
+
+PROCESSING:
+  1. Open and read "batting_averages.txt" line by line.
+  2. Split each line into the player's name and batting average (converted to float).
+  3. Store the name (key) and batting average (value) in a dictionary.
+  4. Pass the dictionary to a display function.
+
+OUTPUT:
+  - Two-column table with headers ("Player Name" and "Batting Average")
+  - All 10 player names and batting averages formatted to three decimal places

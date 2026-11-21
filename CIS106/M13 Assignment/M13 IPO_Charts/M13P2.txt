@@ -1,0 +1,12 @@
+INPUT:
+  - Student names (dictionary keys)
+  - List of three numeric grades per student (dictionary values)
+
+PROCESSING:
+  1. Create a dictionary storing student names and lists of three grades.
+  2. Loop through the dictionary to calculate and print each student's individual average.
+  3. Call a function to calculate the class average for each of the three assignments.
+
+OUTPUT:
+  - Table 1: Student Name and individual Student Average
+  - Table 2: Assignment (Grade 1, Grade 2, Grade 3) and Class Average for each

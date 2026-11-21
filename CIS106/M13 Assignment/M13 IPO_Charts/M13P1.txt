@@ -1,0 +1,13 @@
+INPUT:
+  - Student names (dictionary keys)
+  - Single numeric grades (dictionary values)
+
+PROCESSING:
+  1. Create a dictionary storing student names and their grades.
+  2. Loop through the dictionary to print each student and sum all grades.
+  3. Divide the total sum by the number of students to calculate the class average.
+
+OUTPUT:
+  - Two-column table with headers ("Student Name" and "Grade")
+  - Each student's name and grade
+  - Overall Class Average
